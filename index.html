@@ -25,6 +25,7 @@
     </div>
   </nav>
 
+  <!-- hero section -->
   <section class="py-5">
     <div class="container">
       <div class="row g-4 align-items-center">
@@ -34,14 +35,14 @@
             <p class="text-muted">Search by meal name or ingredient. Filter by category or area. Click any card for
               full details.</p>
 
-
+ 
             <div class="input-group mb-3">
               <input id="searchInput" type="text" class="form-control search-input"
                 placeholder="Search meals by name… (e.g., biryani, pasta, curry)">
               <button class="btn btn-primary" id="searchBtn">Search</button>
             </div>
 
-
+ 
             <div class="row g-2 mb-3">
               <div class="col-md-4">
                 <input id="ingredientInput" class="form-control search-input"
@@ -62,6 +63,7 @@
               </div>
             </div>
 
+        
             <div class="d-flex gap-3">
               <div class="badge bg-dark p-3">🔎 <b id="count">0</b> results</div>
               <div class="badge bg-dark p-3">❤️ <b id="favCount">0</b> saved</div>
@@ -69,7 +71,11 @@
           </div>
         </div>
 
-       
+        <div class="col-lg-5">
+          <img class="rounded-4 shadow-lg img-fluid"
+            src="https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=1600&auto=format&fit=crop"
+            alt="Hero Dish">
+        </div>
       </div>
     </div>
   </section>
