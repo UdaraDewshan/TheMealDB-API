@@ -1,35 +1,6 @@
 body {
-    --bg: #0b0f1a;
-    --card: #12172a99;
-    --card-solid: #151b2f;
-    --text: #e8edff;
-    --muted: #9aa3c7;
-    --brand: #6d8bff;
-    --brand-2: #8d6dff;
-    --success: #14c38e;
-    --danger: #ff6b6b;
-    --warning: #ffd166;
-    --shadow: 0 10px 30px rgba(0, 0, 0, .35);
-    --radius: 20px;
-}
-
-* {
-    box-sizing: border-box
-}
-
-html,
-body {
-    height: 100%
-}
-
-body {
-    margin: 0;
-    font-family: Poppins, system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji";
-    color: var(--text);
-    background: radial-gradient(1200px 800px at 10% -10%, #1a2050 0%, transparent 60%),
-        radial-gradient(900px 600px at 120% 10%, #2b1455 0%, transparent 60%),
-        radial-gradient(800px 500px at -20% 100%, #0f3b57 0%, transparent 60%),
-        var(--bg);
-    overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #6d28d9, #1e3a8a, #059669, #2563eb);
+    color: #f8f9fa;
 }
 
