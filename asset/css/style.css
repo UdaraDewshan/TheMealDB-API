@@ -4,3 +4,8 @@ body {
     color: #f8f9fa;
 }
 
+
+.navbar {
+    backdrop-filter: blur(8px);
+    background: rgba(8, 12, 24, 0.9) !important;
+}
