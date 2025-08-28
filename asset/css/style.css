@@ -1,0 +1,107 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #6d28d9, #1e3a8a, #059669, #2563eb);
+    color: #f8f9fa;
+}
+
+
+.navbar {
+    backdrop-filter: blur(8px);
+    background: rgba(8, 12, 24, 0.9);
+}
+
+.brand-logo {
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    font-weight: bold;
+    background: linear-gradient(135deg, #586bff, #8e66ff);
+    color: #fff;
+    margin-right: 8px;
+}
+
+.hero-title span {
+    background: linear-gradient(135deg, #6d8bff, #8d6dff);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.card-custom {
+    background: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+}
+
+.search-input {
+    border-radius: 12px;
+}
+
+.results-card {
+    transition: transform .2s;
+}
+
+.results-card:hover {
+    transform: translateY(-5px);
+}
+
+footer {
+    padding: 28px 0;
+    border-top: 1px solid rgba(255, 255, 255, .08);
+    color: #000000;
+    text-align: center;
+    background: linear-gradient(180deg, rgba(255, 255, 255, .02), rgba(255, 255, 255, 0))
+}
+
+.link {
+    color: #b9c6ff;
+    text-decoration: none;
+    border-bottom: 1px dashed rgba(185, 198, 255, .45)
+}
+
+
+/* ======= LAYOUT ======= */
+.gallery {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+/* ======= IMAGE CARDS ======= */
+.image-card {
+  width: 220px;
+  height: 260px;       /* a little taller so names fit under */
+  border-radius: 15px;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.image-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-bottom: 1px solid #eee;
+}
+
+
+.image-card p {
+  margin: 8px 0;
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
+}
+
+.image-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+}
